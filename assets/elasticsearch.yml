@@ -6,7 +6,7 @@ script.groovy.sandbox.enabled: true
 
 # the following settings secure your cluster
 cluster.name: default
-network.host: 127.0.0.1
+#network.host: 127.0.0.1
 
 # the following settings are well-suited for smaller ElasticSearch instances (e.g. as long as you can stay on one host)
 index.number_of_shards: 1
