@@ -11,3 +11,6 @@ cluster.name: default
 # the following settings are well-suited for smaller ElasticSearch instances (e.g. as long as you can stay on one host)
 index.number_of_shards: 1
 index.number_of_replicas: 0
+
+# disable autodiscovery for cluster
+discovery.zen.ping.multicast.enabled: false
